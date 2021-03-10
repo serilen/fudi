@@ -189,6 +189,57 @@ html, body{
 	outline: 2px solid #ff0000;
 }
 
+.get {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.get-list {
+	font-size: 0;	
+}
+
+.get-list-item {
+	display: inline-block;
+	width: 360px;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.get-list-item:last-child {
+	margin-right: 0;
+}
+
+.get-img {
+	padding-bottom: 25px;
+}
+
+.get-list-link {
+	display: block;
+	text-decoration: none;
+	color: #000;
+} 
+
+.get-list-link:hover {
+	opacity: 0.7;
+}
+
+.get-list-link:active {
+	opacity: 0.2;
+}
+
+.get-list-link:focus {
+	outline: 2px solid #ff0000;
+}
+
+.get-item-description {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.get-item-title {
+	font-size: 18px;
+	padding-bottom: 25px;
+}
 /*
 .section-design-battles {
 	margin-bottom: 155px;
@@ -484,55 +535,7 @@ html, body{
 	outline: 2px solid #ff0000;
 }
 
-.jury {
-	background-color: #ffe9eb;
-	padding-top: 90px;
-	padding-bottom: 100px;
-}
 
-.jury-tittle {
-	font-size: 62px;
-	text-align: center;
-	margin-bottom: 85px;
-}
-
-.jury-list {
-	font-size: 0;	
-}
-
-.jury-list-item {
-	display: inline-block;
-	margin-right: 30px;
-}
-
-.jury-list-item:last-child {
-	margin-right: 0;
-}
-
-
-.jury-img {
-	border-radius: 50%;
-	padding-bottom: 20px;
-	width: 358px;
-	height: 358px;
-}
-
-.jury-list-link {
-	display: block;
-	text-decoration: none;
-} 
-
-.jury-list-link:hover {
-	opacity: 0.7;
-}
-
-.jury-list-link:active {
-	opacity: 0.2;
-}
-
-.jury-list-link:focus {
-	outline: 2px solid #ff0000;
-}
 
 .contact-us {
 	padding: 102px 0;
