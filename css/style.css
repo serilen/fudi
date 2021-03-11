@@ -292,6 +292,22 @@ html, body{
 	margin-right: 10px;
 }
 
+.intro-example-link {
+	display: inline-block;
+}
+
+.intro-example-link:hover {
+	opacity: 0.5;
+}
+
+.intro-example-link:active {
+	opacity: 0.1;
+}
+
+.intro-example-link:focus {
+	outline: 2px solid #ff0000;
+}
+
 .profile {
 	position: relative;
 	top: -177px;
@@ -302,4 +318,25 @@ html, body{
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	;
+}
+
+.profile-img {
+	border-radius: 50%;
+	border: 6px solid #948b93;
+}
+
+.profile-link {
+	display: block;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 2;
+	color: #837782;
+	margin-bottom: 35px;
+}
+
+.site {
+	font-size: 18px;
+	font-style: italic;
 }
