@@ -209,8 +209,20 @@ html, body{
 	margin-right: 0;
 }
 
+.circle-get-img {
+	display: inline-block;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
 .get-img {
-	padding-bottom: 25px;
+	padding: 30px;
+}
+
+.align-circle {
+	padding-bottom: 44px;
+	padding-top: 44px;
 }
 
 .get-list-link {
@@ -220,11 +232,11 @@ html, body{
 } 
 
 .get-list-link:hover {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .get-list-link:active {
-	opacity: 0.2;
+	opacity: 0.1;
 }
 
 .get-list-link:focus {
@@ -238,7 +250,14 @@ html, body{
 
 .get-item-title {
 	font-size: 18px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
+}
+
+.line-decoration {
+	display: inline-block;
+	width: 88px;
+	border: 1px solid #ff0000;
+	margin-bottom: 22px;
 }
 /*
 .section-design-battles {
