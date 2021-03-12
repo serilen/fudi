@@ -16,14 +16,18 @@ html, body{
 	letter-spacing: 0.05em;
 }
 
-.main-banner {
+.main {
+	background-image: url(..//image/main-image.jpg);
+	padding-top: 15px;
+	padding-bottom: 240px;
+}
+
+.banner {
 	background-image: url(..//image/main-image.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 240px;
 }
 
 .container {
@@ -106,6 +110,7 @@ html, body{
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 5px;
   min-width: 160px;
 }
 
@@ -114,6 +119,7 @@ html, body{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  color: #fff;
 }
 
 .dropdown-content-link:hover {background-color: #ddd;}
@@ -190,8 +196,10 @@ html, body{
 }
 
 .get {
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	z-index: 1;
 }
 
 .get-list {
@@ -310,7 +318,7 @@ html, body{
 
 .profile {
 	position: relative;
-	top: -177px;
+	margin-top: -177px;
 	background-image: url(..//image/Layer-17.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -318,7 +326,7 @@ html, body{
 	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 75px;
-	;
+	z-index: 2;
 }
 
 .profile-img {
@@ -376,9 +384,97 @@ html, body{
 	margin-right: 0;
 }
 
+.food-menu {
+	padding: 95px 0 55px 0;
+}
 
+.title-food-menu {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
 
+.food-menu-list {
+	font-size: 0;
+	margin-bottom: 55px;
+	letter-spacing: 0;
+	color: #fff;
+}
 
+.food-menu-item {
+	display: inline-block;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 700;
+	font-family: "Times New Roman", serif;
+	width: calc(100% / 5);
+	padding-top: 72px;
+	padding-bottom: 95px;
+}
+
+.name-recipes {
+font-size: 36px;
+letter-spacing: 2px;
+font-weight: 700;
+}
+
+.italian {
+	background-image: url(..//image/Layer-5.jpg);
+}
+
+.indian {
+	background-image: url(..//image/Layer-7.jpg);
+}
+
+.french {
+	background-image: url(..//image/Layer-8.jpg);
+}
+
+.steakhouse {
+	background-image: url(..//image/Layer-9.jpg);
+}
+
+.seafood {
+	background-image: url(..//image/Layer-10.jpg);
+}
+
+.sushi {
+	background-image: url(..//image/Layer-11.jpg);
+}
+
+.mexican {
+	background-image: url(..//image/Layer-12.jpg);
+}
+
+.pizza {
+	background-image: url(..//image/Layer-13.jpg);
+}
+
+.american {
+	background-image: url(..//image/Layer-14.jpg);
+}
+
+.description-food-menu {
+	font-size: 0;
+}
+
+.value-statistics {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-right: 120px;
+	text-align: center;
+}
+
+.denotation-statistics {
+	font-size: 16px;
+	font-weight: 300;	
+}
+
+.value-statistics:last-child {
+	margin-right: 0;
+}
 
 .design-author {
 	background-color: #f7f7f7;
