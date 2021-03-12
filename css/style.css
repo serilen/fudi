@@ -375,3 +375,58 @@ html, body{
 .circle:last-child {
 	margin-right: 0;
 }
+
+
+
+
+
+.design-author {
+	background-color: #f7f7f7;
+	padding: 40px 0;
+}
+
+.footer-lead {
+	list-style: none;
+	font-size: 0;
+	font-weight: 300;
+	font-family: "Lato";
+	text-align: justify;
+	color: #8b8b8b;
+}
+
+.footer-lead:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+.project-info {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.author-info {
+	font-size: 14px;
+	letter-spacing: 3px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.author-link {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.author-link:hover {
+	opacity: 0.5;
+}
+
+.author-link:active {
+	opacity: 0.1;
+}
+
+.author-link:focus {
+	outline: 2px solid #ff0000
+}
