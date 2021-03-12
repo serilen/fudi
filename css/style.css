@@ -110,7 +110,6 @@ html, body{
 .dropdown-content {
   display: none;
   position: absolute;
-  right: 5px;
   min-width: 160px;
 }
 
@@ -410,6 +409,7 @@ html, body{
 	width: calc(100% / 5);
 	padding-top: 72px;
 	padding-bottom: 95px;
+	line-height: 2em;
 }
 
 .name-recipes {
@@ -484,10 +484,8 @@ font-weight: 700;
 .footer-lead {
 	list-style: none;
 	font-size: 0;
-	font-weight: 300;
-	font-family: "Lato";
 	text-align: justify;
-	color: #8b8b8b;
+	color: #c1c1c1;
 }
 
 .footer-lead:after {
@@ -507,12 +505,13 @@ font-weight: 700;
 	letter-spacing: 3px;
 	display: inline-block;
 	vertical-align: middle;
+	color: #c5c5c5;
 }
 
 .author-link {
 	display: inline-block;
 	text-decoration: none;
-	color: inherit;
+	color: #000;
 }
 
 .author-link:hover {
