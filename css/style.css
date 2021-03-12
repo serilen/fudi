@@ -316,8 +316,8 @@ html, body{
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 75px;
+	padding-bottom: 75px;
 	;
 }
 
@@ -331,7 +331,7 @@ html, body{
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 100;
-	line-height: 2;
+	line-height: 1.6;
 	color: #837782;
 	margin-bottom: 35px;
 }
@@ -339,4 +339,39 @@ html, body{
 .site {
 	font-size: 18px;
 	font-style: italic;
+}
+
+.profile-link:hover {
+	opacity: 0.5;
+}
+
+.profile-link:active {
+	opacity: 0.1;
+}
+
+.profile-link:focus {
+	outline: 2px solid #ff0000;
+}
+
+.ellipsis {
+	width: 55px;
+	font-size: 0;
+	margin: auto;
+}
+
+.circle {
+	display: inline-block;
+	background-color: #837782;
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 11px;
+	height: 11px;
+}
+
+.circle:first-child {
+	background-color: #fff;
+}
+
+.circle:last-child {
+	margin-right: 0;
 }
