@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	transition: all .1s ease-in;
+	transition: all .3s ease-in;
 }
 
 html, body{
@@ -17,13 +17,13 @@ html, body{
 }
 
 .main {
-	background-image: url(..//image/main-image.jpg);
+	background-image: url(../image/main-image.jpg);
 	padding-top: 15px;
 	padding-bottom: 240px;
+	color: #fff;
 }
 
 .banner {
-	background-image: url(..//image/main-image.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -31,7 +31,9 @@ html, body{
 }
 
 .container {
-	width: 1180px;
+	width: 1210px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: auto;
 }
 
@@ -62,6 +64,10 @@ html, body{
 	display: inline-block;
 }
 
+.main-nav-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .main-nav-link:hover {
 	opacity: 0.5;
 }
@@ -70,62 +76,12 @@ html, body{
 	opacity: 0.1;
 }
 
-.main-nav-link:focus {
-	outline: 2px solid #ff0000
-}
-
 .main-menu-item {
 	display: inline-block;
 	font-size: 14px;	
 	font-weight: 700;
-}
-
-.main-menu-item-link {
-	display: inline-block;
-	color: #ffffff;
-	text-decoration: none;
 	padding: 15px 20px 15px 0;
 }
-
-
-.main-menu-item-link:hover {
-	color: #e71cb4;
-	border-bottom-color: #e71cb4;
-}
-
-.main-menu-item-link:active {
-	color: #000;
-	border-bottom-color: #000;
-}
-
-.main-menu-item-link:focus {
-	outline: 2px solid #ff0000;
-}
-
-.dropbtn {
-  background-color: inherit;
-  border: none;
- }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-}
-
-.dropdown-content-link {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  color: #fff;
-}
-
-.dropdown-content-link:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .header-title  {
 	width: 450px;
@@ -138,7 +94,7 @@ html, body{
 }
 
 .big-header-title {
-	font-style: normal;
+	font-weight: 400;
 	font-size: 100px;
 	text-transform: uppercase;
 	color: #fff;
@@ -149,16 +105,16 @@ html, body{
 	color: #ffffff;
 }
 
+.btn:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .btn:hover {
 	opacity: 0.5;
 }
 
 .btn:active {
-	opacity: 0.1;
-}
-
-.btn:focus {
-	outline-color: #2f2f;
+	opacity: 0.3;
 }
 
 .btn-header {
@@ -180,6 +136,10 @@ html, body{
 	color: #fff;
 }
 
+.header-descr-link:focus {
+		box-shadow: 0 0 0 5px #0f0f;
+}
+
 .header-descr-link:hover {
 	color: #e71cb4;
 	border-bottom-color: #e71cb4;
@@ -190,40 +150,36 @@ html, body{
 	border-bottom-color: #000;
 }
 
-.header-descr-link:focus {
-	outline: 2px solid #ff0000;
-}
-
-.get {
+.section-features {
 	position: relative;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	z-index: 1;
 }
 
-.get-list {
+.features-list {
 	font-size: 0;	
 }
 
-.get-list-item {
+.features-list-item {
 	display: inline-block;
 	width: 360px;
 	margin-right: 40px;
 	text-align: center;
 }
 
-.get-list-item:last-child {
+.features-list-item:last-child {
 	margin-right: 0;
 }
 
-.circle-get-img {
+.circle-features-img {
 	display: inline-block;
 	border: 1px solid #000;
 	border-radius: 50%;
 	margin-bottom: 20px;
 }
 
-.get-img {
+.features-img {
 	padding: 30px;
 }
 
@@ -232,30 +188,12 @@ html, body{
 	padding-top: 44px;
 }
 
-.get-list-link {
-	display: block;
-	text-decoration: none;
-	color: #000;
-} 
-
-.get-list-link:hover {
-	opacity: 0.5;
-}
-
-.get-list-link:active {
-	opacity: 0.1;
-}
-
-.get-list-link:focus {
-	outline: 2px solid #ff0000;
-}
-
-.get-item-description {
+.features-item-description {
 	font-size: 16px;
 	font-weight: 200;
 }
 
-.get-item-title {
+.features-item-title {
 	font-size: 18px;
 }
 
@@ -295,12 +233,13 @@ html, body{
 	margin-bottom: 30px;
 }
 
-.intro-example-logo {
+.intro-example-link {
+	display: inline-block;
 	margin-right: 10px;
 }
 
-.intro-example-link {
-	display: inline-block;
+.intro-example-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
 }
 
 .intro-example-link:hover {
@@ -308,24 +247,24 @@ html, body{
 }
 
 .intro-example-link:active {
-	opacity: 0.1;
+	opacity: 0.2;
 }
 
-.intro-example-link:focus {
-	outline: 2px solid #ff0000;
-}
-
-.profile {
+.section-profile {
 	position: relative;
 	margin-top: -177px;
 	background-image: url(..//image/Layer-17.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 75px;
 	z-index: 2;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 1.6;
+	color: #fff;
+}
+
+.profile-description {
+	margin-bottom: 35px;
 }
 
 .profile-img {
@@ -333,40 +272,18 @@ html, body{
 	border: 6px solid #948b93;
 }
 
-.profile-link {
-	display: block;
-	text-decoration: none;
-	font-size: 30px;
-	font-weight: 100;
-	line-height: 1.6;
-	color: #837782;
-	margin-bottom: 35px;
-}
-
 .site {
 	font-size: 18px;
 	font-style: italic;
 }
 
-.profile-link:hover {
-	opacity: 0.5;
-}
-
-.profile-link:active {
-	opacity: 0.1;
-}
-
-.profile-link:focus {
-	outline: 2px solid #ff0000;
-}
-
-.ellipsis {
+.dots {
 	width: 55px;
 	font-size: 0;
 	margin: auto;
 }
 
-.circle {
+.dots-item {
 	display: inline-block;
 	background-color: #837782;
 	border-radius: 50%;
@@ -375,11 +292,11 @@ html, body{
 	height: 11px;
 }
 
-.circle:first-child {
+.dots-item:first-child {
 	background-color: #fff;
 }
 
-.circle:last-child {
+.dots-item:last-child {
 	margin-right: 0;
 }
 
@@ -407,9 +324,6 @@ html, body{
 	font-weight: 700;
 	font-family: "Times New Roman", serif;
 	width: calc(100% / 5);
-	padding-top: 72px;
-	padding-bottom: 95px;
-	line-height: 2em;
 }
 
 .name-recipes {
@@ -418,40 +332,65 @@ letter-spacing: 2px;
 font-weight: 700;
 }
 
-.italian {
+.italian-food {
 	background-image: url(..//image/Layer-5.jpg);
 }
 
-.indian {
+.indian-food {
 	background-image: url(..//image/Layer-7.jpg);
 }
 
-.french {
+.french-food {
 	background-image: url(..//image/Layer-8.jpg);
 }
 
-.steakhouse {
+.steakhouse-food {
 	background-image: url(..//image/Layer-9.jpg);
 }
 
-.seafood {
+.seafood-food {
 	background-image: url(..//image/Layer-10.jpg);
 }
 
-.sushi {
+.sushi-food {
 	background-image: url(..//image/Layer-11.jpg);
 }
 
-.mexican {
+.mexican-food {
 	background-image: url(..//image/Layer-12.jpg);
 }
 
-.pizza {
-	background-image: url(..//image/Layer-13.jpg);
+.pizza-food {
+	background-image: url(..//image/Layer-15.jpg);
 }
 
-.american {
+.american-food {
 	background-image: url(..//image/Layer-14.jpg);
+}
+
+.chinese-food {
+	background-image: url(../image/Layer-13.jpg);
+}
+
+.food-menu-link {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding-top: 72px;
+	padding-bottom: 95px;
+	line-height: 2em;
+}
+
+.food-menu-link:focus {
+	box-shadow: inset 0 0 0 5px #0f0f;
+}
+
+.food-menu-link:hover {
+	box-shadow: inset 0 0 0 80px rgba(255,255,255,0.5);
+}
+
+.food-menu-link:active {
+	opacity: 0.5;
 }
 
 .description-food-menu {
@@ -461,7 +400,6 @@ font-weight: 700;
 .value-statistics {
 	display: inline-block;
 	font-size: 36px;
-	font-weight: 700;
 	letter-spacing: 1px;
 	margin-right: 120px;
 	text-align: center;
@@ -514,6 +452,10 @@ font-weight: 700;
 	color: #000;
 }
 
+.author-link:focus {
+	outline: 2px solid #ff0000
+}
+
 .author-link:hover {
 	opacity: 0.5;
 }
@@ -522,6 +464,3 @@ font-weight: 700;
 	opacity: 0.1;
 }
 
-.author-link:focus {
-	outline: 2px solid #ff0000
-}
