@@ -197,6 +197,18 @@ html, body{
 	font-size: 18px;
 }
 
+.features-item-title:after {
+	display: block;
+	content: "";
+	width: 88px;
+	height: 2px;
+	border-bottom: 1px solid #ff0000;
+	margin-bottom: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
 .line-decoration {
 	display: inline-block;
 	width: 88px;
@@ -226,6 +238,16 @@ html, body{
 
 .intro-lead-title {
 	font-size: 18px;
+}
+
+.intro-lead-title:after {
+	display: block;
+	content: "";
+	width: 88px;
+	height: 2px;
+	border-bottom: 1px solid #ff0000;
+	margin-bottom: 22px;
+	padding-top: 10px;
 }
 
 .intro-lead-descrip {
@@ -308,6 +330,18 @@ html, body{
 	text-align: center;
 	font-size: 18px;
 	margin-bottom: 30px;
+}
+
+.title-food-menu:after {
+	display: block;
+	content: "";
+	width: 88px;
+	height: 2px;
+	border-bottom: 1px solid #ff0000;
+	margin-bottom: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
 }
 
 .food-menu-list {
